@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --color-text: #FFF;
+  --color-highlight: #12a3f7;
+  --color-primary: #43454d;
+  --color-background: #07121f;
+
+  --font-family-op: "Open Sans", serif;
+  --font-family-pop: "Poppins", serif;
+  --h1: 500 2rem/135% var(--font-family-op);
+  --h2: 450 1.55rem/140% var(--font-family-op);
+  --h3: 400 .875rem/140% var(--font-family-op);
+  --text-span: 250 1.125rem/145% var(--font-family-op);
+  --text-sm: 200 .875rem/160% var(--font-family-op);
+}
+
+body{
+  background-color: var(--color-background);
+  color: white
+}
+
+a{
+  text-decoration: none;
+  color: inherit
+}
+
+/*
+@media (width < 27rem) and (width >= 23rem) {
+  :root{
+    --font-family-op: "Open Sans", serif;
+  --font-family-pop: "Poppins", serif;
+  --h1: 500 2rem/135% var(--font-family-op);
+  --h2: 800 1rem/140% var(--font-family-op);
+  --h3: 400 .875rem/140% var(--font-family-op);
+  --text-span: 250 1.125rem/145% var(--font-family-op);
+  --text-sm: 200 .875rem/160% var(--font-family-op);
+  }
+}
+
+@media (width < 23rem) {
+  :root{
+    --font-family-op: "Open Sans", serif;
+  --font-family-pop: "Poppins", serif;
+  --h1: 500 2rem/135% var(--font-family-op);
+  --h2: 800 1rem/140% var(--font-family-op);
+  --h3: 400 .875rem/140% var(--font-family-op);
+  --text-span: 250 1.125rem/145% var(--font-family-op);
+  --text-sm: 200 .875rem/160% var(--font-family-op);
+  }
+}
