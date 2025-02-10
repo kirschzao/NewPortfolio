@@ -19,11 +19,13 @@ header{
     object-fit: cover;
     border: 3px solid var(--color-primary);
     border-radius: 100% ;
+    filter: brightness(60%);
 
   }
 
   img:hover{
     border: 3px solid var(--color-highlight);
+    filter: brightness(100%);
   }
 }
 

@@ -13,7 +13,8 @@
   color: var(---color-text);
   
   p{
-    font: var(--text-span);
+    font: 300 1.25rem/145% var(--font-family-op);
+
   }
 
   & img{

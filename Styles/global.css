@@ -41,7 +41,11 @@ p{
 }
 span{
   font: var(--text-span);
+  strong{
+    font: 700 1rem/145% var(--font-family-op);
+  }
 }
+
 
 body{
   background-color: var(--color-background);
