@@ -19,6 +19,7 @@
   background-color: var(--color-highlight);
   margin-top: 2rem;
   margin-inline: auto;
+  
 }
 
 .info{
@@ -91,6 +92,7 @@ align-items: center;
   border-radius: 5.6rem;
   padding: 5px 20px;
   width: fit-content;
+  filter:drop-shadow(0 0 0.15rem #4444dd);
 }
 
 .title{

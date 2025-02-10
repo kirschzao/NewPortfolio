@@ -8,7 +8,7 @@
   gap: 0.5rem;
   padding: 0.375rem;
   border-radius: 0.45rem;
-  filter:drop-shadow(0 0 0.25rem #4444dd);
+  filter:drop-shadow(0 0 0.25rem #21219c);
   
   background-color: var(--buttons-color);
   color: var(---color-text);

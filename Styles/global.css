@@ -43,7 +43,8 @@ p{
 span{
   font: var(--text-span);
   strong{
-    font: 700 1rem/145% var(--font-family-op);
+    font: 700 1rem/145% var(--font-family-op) ;
+    color: #ffffffd8;
   }
 }
 
