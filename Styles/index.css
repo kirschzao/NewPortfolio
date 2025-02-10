@@ -3,3 +3,6 @@
 @import url(item.css);
 @import url(buttons.css);
 @import url(header.css);
+@import url(error.css) (width < 21.3rem);
+@import url(projects.css);
+@import url(footer.css);

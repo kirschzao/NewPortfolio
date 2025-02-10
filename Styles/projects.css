@@ -1,0 +1,50 @@
+.project{
+  display: flex;
+  gap: 1rem;
+  padding-top: 2.5rem;
+  align-content: flex-start;
+}
+
+.coments{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.botao{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  justify-content: center;
+}
+
+.break{
+  font: 700 .98rem/140% var(--font-family-op);
+  width: 100%;
+}
+
+@media (width < 41.25rem){
+  .project{
+    display: flex;
+    flex-direction: column;
+  }
+
+  span:nth-child(2){
+    text-align: justify;
+  }
+
+  .botao{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-self: center;
+  }
+
+  .coments{
+    gap: .5rem;
+  }
+
+  .break{
+    width: inherit;
+  }
+}

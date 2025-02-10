@@ -1,0 +1,14 @@
+footer{
+  background-color: var(--buttons-color);
+  max-width: 768px;
+  width: 100%;
+  margin-inline: auto;
+  filter:drop-shadow(0 -1mm .5rem #4444dd);
+  margin-top: 2.75rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: .95rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  color: rgba(255, 255, 255, 0.836);
+}

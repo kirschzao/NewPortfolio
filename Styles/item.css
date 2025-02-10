@@ -23,3 +23,56 @@
   }
 }
 
+.especial{
+  p{
+   font: 300 1.15rem/145% var(--font-family-op);
+  }
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+@media (width < 28.9rem){
+  .item{
+    width: 9rem;
+    p{
+      font: 300 1rem/145% var(--font-family-op);
+  
+    }
+  
+    & img{
+      width: 2rem;
+    }
+  }
+
+  .especial{
+    p{
+     font: 300 .85rem/145% var(--font-family-op);
+    }
+  }
+}
+
+@media (width < 23.2rem){
+  .item{
+    width: 8rem;
+    p{
+      font: 300 1rem/145% var(--font-family-op);
+  
+    }
+  
+    & img{
+      width: 1.5rem;
+    }
+  }
+
+  .especial{
+    p{
+     font: 300 .85rem/145% var(--font-family-op);
+    }
+  }
+}
+

@@ -44,7 +44,7 @@ header{
     display: none;
   }
 
-  .space:nth-child(2){
+  .space:nth-child(1){
     justify-content: center;
   }
   .centro{

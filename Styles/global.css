@@ -59,27 +59,4 @@ a{
   color: inherit
 }
 
-/*
-@media (width < 27rem) and (width >= 23rem) {
-  :root{
-    --font-family-op: "Open Sans", serif;
-  --font-family-pop: "Poppins", serif;
-  --h1: 500 2rem/135% var(--font-family-op);
-  --h2: 800 1rem/140% var(--font-family-op);
-  --h3: 400 .875rem/140% var(--font-family-op);
-  --text-span: 250 1.125rem/145% var(--font-family-op);
-  --text-sm: 200 .875rem/160% var(--font-family-op);
-  }
-}
 
-@media (width < 23rem) {
-  :root{
-    --font-family-op: "Open Sans", serif;
-  --font-family-pop: "Poppins", serif;
-  --h1: 500 2rem/135% var(--font-family-op);
-  --h2: 800 1rem/140% var(--font-family-op);
-  --h3: 400 .875rem/140% var(--font-family-op);
-  --text-span: 250 1.125rem/145% var(--font-family-op);
-  --text-sm: 200 .875rem/160% var(--font-family-op);
-  }
-}
