@@ -87,7 +87,7 @@ align-items: center;
   display: inline-block;
   font: var(--h2);
   color: var(--color-highlight);
-  background-color: var(--color-primary);
+  background-color: var(--buttons-color);
   border-radius: 5.6rem;
   padding: 5px 20px;
   width: fit-content;
