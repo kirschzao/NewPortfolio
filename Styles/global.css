@@ -19,9 +19,28 @@
   --font-family-pop: "Poppins", serif;
   --h1: 500 2rem/135% var(--font-family-op);
   --h2: 450 1.55rem/140% var(--font-family-op);
-  --h3: 400 .875rem/140% var(--font-family-op);
-  --text-span: 250 1.125rem/145% var(--font-family-op);
+  --h3: 700 1.3rem/140% var(--font-family-op);
+  --text-span: 250 1rem/145% var(--font-family-op);
   --text-sm: 200 .875rem/160% var(--font-family-op);
+}
+
+h1{
+  font: var(--h1);
+}
+
+h2{
+  font: var(--h2);
+}
+
+h3{
+  font: var(--h3);
+}
+
+p{
+  font: var(--text-sm);
+}
+span{
+  font: var(--text-span);
 }
 
 body{

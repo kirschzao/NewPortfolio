@@ -1,0 +1,52 @@
+header{
+  .foto{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 100%;
+    border: 5px solid var(--color-primary);
+  }
+}
+
+.emoji{
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.info{
+  & img{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border: 3px solid var(--color-primary);
+    border-radius: 100% ;
+
+  }
+
+  img:hover{
+    border: 3px solid var(--color-highlight);
+  }
+}
+
+@media (width < 55rem){
+  .desktop-only{
+    display: none;
+  }
+}
+@media (width < 40rem){
+  .remove1{
+    display: none;
+  }
+}
+@media (width < 28rem){
+  .remove2{
+    display: none;
+  }
+
+  .space:nth-child(2){
+    justify-content: center;
+  }
+  .centro{
+    justify-content: space-between;
+  }
+}
+

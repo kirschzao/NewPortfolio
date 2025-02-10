@@ -31,26 +31,26 @@
 .btn-lg{
   padding: 1rem 8rem;
   border: solid 1px white;
+  width: 100%;
 }
 
+.especial{
+  display: flex;
+}
 
-/*
-@media (width < 27rem) and (width >= 23rem) {
-  .btn-sm{
-    padding: .75rem 1.5rem;
-  }
-  
-  .btn-md{
-    padding: 1rem 2rem;
+@media (width < 50rem){
+  .btn-lg{
+    padding: 1rem 1rem;
+    border: solid 1px white;
+    width: 100%;
+    font: var(h3);
   }
 }
 
-@media (width < 23rem) {
-  .btn-sm{
-    padding: .75rem 1.5rem;
-  }
-  
-  .btn-md{
-    padding: 1rem 2rem;
+@media (width < 22rem){
+  .especial{
+    display: flex;
+    flex-direction: column;
+    
   }
 }
