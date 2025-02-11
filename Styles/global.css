@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root{
   --color-text: #FFF;
   --color-highlight: #12a3f7;
@@ -24,6 +28,8 @@
   --h3: 700 1.3rem/140% var(--font-family-op);
   --text-span: 250 1rem/145% var(--font-family-op);
   --text-sm: 200 .875rem/160% var(--font-family-op);
+
+  scroll-behavior: smooth;
 }
 
 h1{
