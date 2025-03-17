@@ -119,6 +119,15 @@ align-items: center;
   }
 }
 
+.xp{
+  display: flex;
+  flex-direction: column;
+}
+
+.experience{
+  color: #ffffff53;
+}
+
 /*
 @media (width < 48rem) and (width >= 27rem) {
   .container{
