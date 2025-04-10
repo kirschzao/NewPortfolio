@@ -38,6 +38,10 @@
   display: flex;
 }
 
+.testinho{
+  width: 8.4rem;
+}
+
 @media (width < 50rem){
   .btn-lg{
     padding: 1rem 1rem;
